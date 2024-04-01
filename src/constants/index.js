@@ -79,9 +79,15 @@ export const sizes = [
 ];
 
 export const footerLinks = [
-  "Privacy Policy",
-  "Terms of Use",
-  "Sales Policy",
-  "Legal",
-  "Site Map",
+  { name: "Privacy Policy", url: "https://www.apple.com/legal/privacy/" },
+  {
+    name: "Terms of Use",
+    url: "https://www.apple.com/legal/internet-services/terms/site.html",
+  },
+  {
+    name: "Sales and Refunds",
+    url: "https://www.apple.com/legal/sales-support/sales-policies/retail_us.html",
+  },
+  { name: "Legal", url: "https://www.apple.com/legal/" },
+  { name: "Site Map", url: "https://www.apple.com/sitemap/" },
 ];

@@ -61,7 +61,10 @@ const Hero = () => {
         id="cta"
         className="flex translate-y-20 flex-col items-center opacity-0"
       >
-        <a href="#highlights" className="btn">
+        <a
+          href="https://www.apple.com/shop/buy-iphone/iphone-15-pro"
+          className="btn"
+        >
           Buy
         </a>
         <p className="font-normal">From $199/month ot $999</p>
